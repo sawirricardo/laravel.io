@@ -29,6 +29,7 @@ We'd like to thank these **amazing companies** for sponsoring us. If you are int
 - [Akaunting](https://akaunting.com/developers?utm_source=Laravelio&utm_medium=Banner&utm_campaign=Developers)
 - [Scout APM](https://ter.li/o1adaj)
 - [Skynet Technologies](https://www.skynettechnologies.com/hire-laravel-developer)
+- [Lightflows](https://www.lightflows.co.uk/laravel-development-agency/)
 
 ## Requirements
 
@@ -111,6 +112,15 @@ Laravel.io can notify maintainers of newly submitted articles through Telegram. 
 ```
 TELEGRAM_BOT_TOKEN=
 TELEGRAM_CHANNEL=
+```
+
+### Fathom Analytics (optional)
+
+To enable view counts on articles, you'll need to register a [Fathom Analytics](https://app.usefathom.com/register) account and [install](https://usefathom.com/docs/start/install) it on the site. You will then need to create an API token and find your site ID before updating the below environment variables in your `.env` file.
+
+```
+FATHOM_SITE_ID=
+FATHOM_TOKEN=
 ```
 
 ## Commands

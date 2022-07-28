@@ -10,6 +10,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\ResetPasswordController;
 use App\Http\Controllers\Auth\VerificationController;
+use App\Http\Controllers\BlockUserController;
 use App\Http\Controllers\Forum\TagsController;
 use App\Http\Controllers\Forum\ThreadsController;
 use App\Http\Controllers\BlockUserController;
